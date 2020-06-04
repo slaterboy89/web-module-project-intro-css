@@ -61,6 +61,9 @@ table {
     border-style: hidden;
     
   }
+  nav button:hover{
+    background-color: blue;
+  }
   .plan{
     width: 14%;
     background-color: #FF764E;
@@ -174,3 +177,9 @@ table {
     margin-top: -0%;
     
   }
+  .sec-txt span{
+  font-weight: bold;
+}
+.sec-txt2 span{
+  font-weight: bold;
+}
