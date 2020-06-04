@@ -47,43 +47,130 @@ table {
 	border-spacing: 0;
 }
 
-#header{
-  display: flex; 
-  border-style: hidden
+*{
+
+    box-sizing: border-box;
+    max-width: 100%;
+   
+  }
+  button{
+    display: inline-block;
+    letter-spacing: 3px;
+    margin: 4% -10% 10% 20%;
+    border-radius: 18%;
+    border-style: hidden;
+    
+  }
+  .plan{
+    width: 14%;
+    background-color: #FF764E;
+    padding: 1.9%;
+    color: white;
+    
+  }
+  .learn{
+    width: 14%;
+    padding: 1.9%;
+    background-color: #5ED3EB;
+    color: white;
+  }
+  .get{
+    width: 14%;
+    padding: 1.9%;
+    letter-spacing: 5px;
+    background-color: #FFCD69;
+    color: white;
+  }
+  .head-img{
+    border-radius: 100%;
+    max-width: 30%;
+    margin-left: 8%
+  }
   
-}
-.plan{
-  border-radius: 15px;
-  background-color: #FF764E;
-  margin-left: 15%;
-  margin-bottom: 5%;
-  padding: 25px;
-  width: 14%;
-  height: 15%;
-  color: white;
-  border-style: hidden
-}
-#header .learn{
-  border-radius: 15px;
-  background-color: #5ED3EB;
-  padding: 25px;
-  width: 14%;
-  height: 15%;
-  margin-left: 20%;
-  margin-right: 20%;
-  color: white;
-  border-style: hidden
-}
-.get{
-  border-radius: 15px;
-  background-color: #FFCD69;
-  padding: 28.6px;
-  width: 14%;
-  height: 55%;
-  color: white;
-  border-style: hidden
-}
-.head-img img{
-  border-radius: 50%;
-  height: 20rem
-}
+  .first-full {
+   display: inline-block;
+    margin-right: 0px;
+    
+   
+  }
+  .first-full .title-sec{
+    display: inline-block;
+    line-height: 200px;
+    margin-left: 70px;
+    width: 52%;
+  }
+  h1{
+    font-size: 350%;
+    font-family: Chelsea Market;
+    letter-spacing: 1px; 
+    
+  }
+  .title-sec .info{
+    margin-top: -60px
+  }
+  .explore{
+   
+    font-size: 175%;
+    font-family: Roboto Mono;
+    margin-left: 60px;
+    
+  }
+  .always{
+    font-size: 175%;
+    font-family: Roboto Mono;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: -30px;
+    line-height: 130%;
+    text-align: center;
+  }
+  #second{
+    margin: 2% 3% 2% 3%;
+    padding: 0%;
+    background-color:#DDB9A3;
+    color: white;
+    font-size: 175%;
+    font-family: Roboto Mono;
+    text-align: center;
+  }
+  #second p{
+    margin: 2% 8% 2% 8%;
+  }
+  #third{
+    text-align: center;
+    
+  }
+  .sec-img img{
+    max-width: 15%;
+  }
+  .sec-txt{
+    margin: .5% 40% 10% 40%;
+    font-size: 120%
+  }
+  .third2{
+    margin-bottom: -3%
+  }
+  .sec-img2 img{
+    max-width: 15%;
+  }
+  .sec-txt2{
+    margin: .5% 39% 10% 39%;
+    font-size: 120%
+  }
+  #footer{
+    background-color: #F9E7DC;
+    margin-bottom: -30%;
+  }
+  .foot-img {
+    width:100%;
+    height:320px;
+    overflow:hidden
+  }
+  .foot-img img {
+    width:100%;
+  }
+  #footer .foot-bttn{
+    
+    margin-top: -0%;
+    
+  }
